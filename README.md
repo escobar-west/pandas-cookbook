@@ -29,23 +29,23 @@ Table of Contents
 =================
 
 
-* [Chapter 1: Reading from a CSV](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/polars_cookbook/Chapter%201%20-%20Reading%20from%20a%20CSV.ipynb)
+* [Chapter 1: Reading from a CSV](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/cookbook/Chapter%201%20-%20Reading%20from%20a%20CSV.ipynb)
   <br> Reading your data into polars is pretty much the easiest thing. Even when the encoding is wrong!
-* [Chapter 2: Selecting data & finding the most common complaint type](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/polars_cookbook/Chapter%202%20-%20Selecting%20data%20&%20finding%20the%20most%20common%20complaint%20type.ipynb)
+* [Chapter 2: Selecting data & finding the most common complaint type](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/cookbook/Chapter%202%20-%20Selecting%20data%20&%20finding%20the%20most%20common%20complaint%20type.ipynb)
   <br>It's not totally obvious how to select data from a polars dataframe. Here I explain the basics (how to take slices and get columns)
-* [Chapter 3: Which borough has the most noise complaints? (or, more selecting data)](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/polars_cookbook/Chapter%203%20-%20Which%20borough%20has%20the%20most%20noise%20complaints%20%28or%2C%20more%20selecting%20data%29.ipynb)
+* [Chapter 3: Which borough has the most noise complaints? (or, more selecting data)](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/cookbook/Chapter%203%20-%20Which%20borough%20has%20the%20most%20noise%20complaints%20%28or%2C%20more%20selecting%20data%29.ipynb)
   <br>Here we get into serious slicing and dicing and learn how to filter dataframes in complicated ways, really fast.
-* [Chapter 4: Find out on which weekday people bike the most with groupby and aggregate](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/polars_cookbook/Chapter%204%20-%20Find%20out%20on%20which%20weekday%20people%20bike%20the%20most%20with%20groupby%20and%20aggregate.ipynb)
+* [Chapter 4: Find out on which weekday people bike the most with groupby and aggregate](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/cookbook/Chapter%204%20-%20Find%20out%20on%20which%20weekday%20people%20bike%20the%20most%20with%20groupby%20and%20aggregate.ipynb)
   <br> The groupby/aggregate is seriously my favorite thing about polars and I use it all the time. You should probably read this.
-* [Chapter 5: Combining dataframes and scraping Canadian weather data](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/polars_cookbook/Chapter%205%20-%20Combining%20dataframes%20and%20scraping%20Canadian%20weather%20data.ipynb)
+* [Chapter 5: Combining dataframes and scraping Canadian weather data](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/cookbook/Chapter%205%20-%20Combining%20dataframes%20and%20scraping%20Canadian%20weather%20data.ipynb)
   <br>This chapter has been omitted due to inactive web URLs.
-* [Chapter 6: String operations! Which month was the snowiest?](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/polars_cookbook/Chapter%206%20-%20String%20Operations-%20Which%20month%20was%20the%20snowiest.ipynb)
+* [Chapter 6: String operations! Which month was the snowiest?](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/cookbook/Chapter%206%20-%20String%20Operations-%20Which%20month%20was%20the%20snowiest.ipynb)
   <br> Strings with polars are great. It has all these vectorized string operations and they're the best. We will turn a bunch of strings containing "Snow" into vectors of numbers in a trice.
-* [Chapter 7: Cleaning up messy data](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/polars_cookbook/Chapter%207%20-%20Cleaning%20up%20messy%20data.ipynb)
+* [Chapter 7: Cleaning up messy data](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/cookbook/Chapter%207%20-%20Cleaning%20up%20messy%20data.ipynb)
   <br> Cleaning up messy data is never a joy, but with polars it's easier &lt;3
-* [Chapter 8: Parsing Unix timestamps](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/polars_cookbook/Chapter%208%20-%20How%20to%20deal%20with%20timestamps.ipynb)
+* [Chapter 8: Parsing Unix timestamps](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/cookbook/Chapter%208%20-%20How%20to%20deal%20with%20timestamps.ipynb)
   <br> This is basically a quick trick that took me 2 days to figure out.
-* [Chapter 9 - Loading data from SQL databases](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/polars_cookbook/Chapter%209%20-%20Loading%20data%20from%20SQL%20databases.ipynb)
+* [Chapter 9 - Loading data from SQL databases](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/cookbook/Chapter%209%20-%20Loading%20data%20from%20SQL%20databases.ipynb)
   <br> How to load data from an SQL database into polars, with examples using SQLite3, PostgreSQL, and MySQL.
 
 How to use this cookbook

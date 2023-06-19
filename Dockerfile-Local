@@ -2,12 +2,11 @@ FROM ipython/scipyserver
 
 RUN mkdir /polars-cookbook
 WORKDIR /polars-cookbook
-RUN mkdir ./pandas_cookbook ./polars_cookbook ./data ./images
+RUN mkdir ./cookbook ./data ./images
 
-COPY pandas_cookbook/*.ipynb ./pandas_cookbook/
-COPY polars_cookbook/*.ipynb ./polars_cookbook/
-COPY polars_cookbook/*.py ./polars_cookbook/
+COPY cookbook/*.ipynb ./cookbook/
+COPY cookbook/*.py ./cookbook/
 COPY images/*.png ./images/
 COPY data/* ./data/
 
-WORKDIR /polars-cookbook/polars_cookbook/
+WORKDIR /polars-cookbook/cookbook/

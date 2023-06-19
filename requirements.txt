@@ -5,5 +5,5 @@ jupyter>=1.0.0
 polars>=0.18.3
 seaborn>=0.12.2
 pyarrow>=12.0.1
-connectorx>=0.3.2a6
+connectorx>=0.3.2a2
 sqlalchemy>=1.4.39

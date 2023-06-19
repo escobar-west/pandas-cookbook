@@ -38,7 +38,7 @@ Table of Contents
 * [Chapter 4: Find out on which weekday people bike the most with groupby and aggregate](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/polars_cookbook/Chapter%204%20-%20Find%20out%20on%20which%20weekday%20people%20bike%20the%20most%20with%20groupby%20and%20aggregate.ipynb)
   <br> The groupby/aggregate is seriously my favorite thing about polars and I use it all the time. You should probably read this.
 * [Chapter 5: Combining dataframes and scraping Canadian weather data](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/polars_cookbook/Chapter%205%20-%20Combining%20dataframes%20and%20scraping%20Canadian%20weather%20data.ipynb)
-  <br>Here you get to find out if it's cold in Montreal in the winter (spoiler: yes). Web scraping with polars is fun!
+  <br>This chapter has been omitted due to inactive web URLs.
 * [Chapter 6: String operations! Which month was the snowiest?](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/polars_cookbook/Chapter%206%20-%20String%20Operations-%20Which%20month%20was%20the%20snowiest.ipynb)
   <br> Strings with polars are great. It has all these vectorized string operations and they're the best. We will turn a bunch of strings containing "Snow" into vectors of numbers in a trice.
 * [Chapter 7: Cleaning up messy data](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/polars_cookbook/Chapter%207%20-%20Cleaning%20up%20messy%20data.ipynb)

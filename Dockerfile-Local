@@ -1,13 +1,13 @@
 FROM ipython/scipyserver
 
-RUN mkdir /pandas-cookbook
-WORKDIR /pandas-cookbook
-RUN mkdir ./cookbook ./cookbook_polars ./data ./images
+RUN mkdir /polars-cookbook
+WORKDIR /polars-cookbook
+RUN mkdir ./pandas_cookbook ./polars_cookbook ./data ./images
 
-COPY cookbook/*.ipynb ./cookbook/
-COPY cookbook_polars/*.ipynb ./cookbook_polars/
-COPY cookbook_polars/*.py ./cookbook_polars/
+COPY pandas_cookbook/*.ipynb ./pandas_cookbook/
+COPY polars_cookbook/*.ipynb ./polars_cookbook/
+COPY polars_cookbook/*.py ./polars_cookbook/
 COPY images/*.png ./images/
 COPY data/* ./data/
 
-WORKDIR /pandas-cookbook/cookbook_polars/
+WORKDIR /polars-cookbook/polars_cookbook/

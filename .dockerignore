@@ -4,6 +4,8 @@
 .DS_Store
 .gitignore
 binder
+__pycache__
+data/test_db.sqlite
 
 # Text Artifacts
 Dockerfile

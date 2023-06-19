@@ -6,6 +6,7 @@ RUN mkdir ./cookbook ./cookbook_polars ./data ./images
 
 COPY cookbook/*.ipynb ./cookbook/
 COPY cookbook_polars/*.ipynb ./cookbook_polars/
+COPY cookbook_polars/*.py ./cookbook_polars/
 COPY images/*.png ./images/
 COPY data/* ./data/
 

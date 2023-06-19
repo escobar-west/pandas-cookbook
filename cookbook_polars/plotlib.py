@@ -8,13 +8,11 @@ import seaborn as sns
 def seaborn_polars(func: Callable[[Any], Any]):
     @singledispatch
     def wrapper(data: pl.DataFrame, *args, **kwargs):
-        temp = data.to_pandas()
-        func(temp, *args, **kwargs)
+        func(data.to_pandas(), *args, **kwargs)
     
     @wrapper.register
     def _(data: pl.LazyFrame, *args, **kwargs):
-        temp = data.collect().to_pandas()
-        func(temp, *args, **kwargs)
+        func(data.collect().to_pandas(), *args, **kwargs)
         
     return wrapper
 

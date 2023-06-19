@@ -27,7 +27,7 @@ Table of Contents
 =================
 
 
-* [A quick tour of the Jupyter Notebook](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/cookbook/A%20quick%20tour%20of%20%20Notebook.ipynb)
+* [A quick tour of the Jupyter Notebook](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/A%20quick%20tour%20of%20%20Notebook.ipynb)
   <br> Shows off Jupyter's awesome tab completion and magic functions.
 * [Chapter 1: Reading from a CSV](http://nbviewer.jupyter.org/github/escobar-west/polars-cookbook/blob/master/cookbook_polars/Chapter%201%20-%20Reading%20from%20a%20CSV.ipynb)
   <br> Reading your data into polars is pretty much the easiest thing. Even when the encoding is wrong!

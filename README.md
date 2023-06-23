@@ -3,7 +3,7 @@ polars cookbook
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/escobar-west/polars-cookbook/master)
 
-This is a fork the [pandas-cookbook](https://github.com/jvns/pandas-cookbook) modified to use the polars library instead of pandas.
+This is a fork of the [pandas-cookbook](https://github.com/jvns/pandas-cookbook) modified to use the polars library instead of pandas.
 
 [polars](https://pola-rs.github.io/polars-book/) is a Python library for doing
 data analysis. It's really fast and lets you do exploratory work
